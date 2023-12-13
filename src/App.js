@@ -3,6 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
 import Welcome from './components/Welcome';
 import Offerings from './components/Offerings';
+import Footer from './components/Footer';
+import Contact from './components/Contact';
+import About from './components/About';
 
 function App() {
   return (
@@ -10,6 +13,9 @@ function App() {
       <Header />
       <Welcome />
       <Offerings />
+      <About />
+      <Contact />
+      <Footer />
     </div>
   );
 }
